@@ -1,0 +1,203 @@
+/* ARCHIVO PERSONALIZADO DE ESTILOS +/
+
+/* ESTILOS GENERALES */
+
+body{
+    background-color: black;
+}
+
+p{
+    color: black;
+}
+
+.principal{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+/*-------- Navegación -------*/
+
+.navegacion{
+    background-color: #0000 !important;
+}
+
+/* ----------- Cards -----*/
+.card{
+
+    margin-bottom: 20px;
+  
+}
+/*---Nombre de hamburguesas en PNG--*/
+
+
+.img-fluid-muela{
+    width: 45%;
+
+}
+
+.img-fluid-incisiva{
+    width: 60%;
+}
+
+.img-fluid-canino{
+    width: 45%;
+
+}
+
+.img-fluid-diente{
+    width: 50%;
+}
+
+/*---Fin de nombre en Png---*/
+
+.muela{
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+ 
+
+}
+.muela .card-body {
+    background-image: url('../img/burgergraf.png');
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: right 20%;
+} 
+
+.incisiva {
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+}
+
+.incisiva .card-body{
+    background-image: url('../img/portobellograf.png');
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: right 20%;
+}
+
+.canino {
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+}
+
+.canino .card-body{
+    background-image: url('../img/cebollagraf.png');
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right 20%;
+}
+
+.diente {
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+}
+
+.diente .card-body{
+    background-image: url('../img/jitomategraf.png');
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right 20%;
+}
+
+
+/*------ TITULOS PNG -------*/
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+
+/*----PAPAS A LA FRANCESA----*/
+
+.papas{
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+ 
+
+}
+.papas .card-body {
+    background-image: url('../img/papas.png');
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right 20%;
+} 
+
+.queso {
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+}
+
+.queso .card-body{
+    background-image: url('../img/queso.png');
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: right 20%;
+}
+
+/*---Nombre en PNG PAPAS---*/
+
+
+.img-fluid-papas{
+    width: 45%;
+
+}
+
+.img-fluid-queso{
+    width: 60%;
+}
+
+
+/*----EXTRAS----*/
+
+.extras{
+    --bs-border-radius: 20px;
+    --bs-card-bg: #ffffff;
+    margin-bottom: 60px;
+ 
+
+}
+.extras .card-body {
+    background-image: url('../img/piñaspicy.png');
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: right 20%;
+} 
+
+
+/*---NOMBRES EXTRAS EN PNG---*/
+
+
+.img-fluid-extras{
+    width: 60%;
+
+}
+
+.img-fluid-masqueso{
+    width: 30%;
+
+}
+
+
+/*-------BOTON FINAL CARITA BURGER (EXTRAS)------*/
+
+
+.feliz {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
